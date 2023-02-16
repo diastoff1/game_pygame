@@ -7,8 +7,7 @@ class Comet:
         self.width, self.height = comet_img.get_size()
         self.x = random.randint(0, screen_width - self.width)
         self.y = -self.height
-        self.speed = 0.2
-        # = random.randint(15, 30)/100
+        self.speed = random.randint(6, 8)/10
 
     def update(self):
         self.y += self.speed
