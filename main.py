@@ -135,6 +135,7 @@ while True:
         if event.type == pygame.KEYDOWN and game_over:
             if event.key == pygame.K_SPACE:
                 score = 0
+                prob = 10
                 game_over = False
 
     # check if the player is inside the limit of the map
