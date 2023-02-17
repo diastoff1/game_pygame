@@ -134,7 +134,8 @@ while True:
                 varY_D = 0
         if event.type == pygame.KEYDOWN and game_over:
             if event.key == pygame.K_SPACE:
-                score = 0
+                score = -2
+                point()
                 prob = 10
                 game_over = False
 
